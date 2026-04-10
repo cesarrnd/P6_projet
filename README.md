@@ -38,3 +38,8 @@ L'une des applications de cette caméra pourrait être la voiture autonome. Un t
 - Valider le modèle : SpikeYOLO_for_GEN1/test.py, remplacer "gen1.yaml" par "gen4.yaml", mettre le bon chemin vers les poids du réseau de neurones, et exécuter le fichier.
 
 - Hyperparamètres : Tous les hyperparamètres sont disponibles dans le fichier SpikeYOLO_for_Gen1\ultralytics\cfg\default.yaml
+
+
+## Prétraitement des données :
+
+- Pour atteindre une rapidité de réponse, il faut aggréger les données sur une fenêtre de temps faible. C'est l'objectif du fichier "Traitement fichier.py". Il permet de pré-traiter les données raw pour les aggréger en fenêtres de temps plus ou moins longues. On peut ainsi créer plusieurs datasets pour tester le changement qu'un pré-traitement plus ou moins long peut induire sur le spikeYOLO.
