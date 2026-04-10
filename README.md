@@ -6,6 +6,53 @@
 
 - Datasets prophesee : https://docs.prophesee.ai/stable/datasets.html (Un dataset réduit de Gen4 existe sous le nom de "Simplified mini-dataset")
 
+### Bibliographie :
+
+2025
+1.	Wang et al.
+Object Detection using Event Camera: A MoE Heat Conduction based Detector and A New Benchmark Dataset
+Conférence : CVPR 2025
+Lien : https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Object_Detection_using_Event_Camera_A_MoE_Heat_Conduction_based_CVPR_2025_paper.html
+2.	Li et al.
+Brain-Inspired Spiking Neural Networks for Energy-Efficient Object Detection
+Conférence : CVPR 2025
+Lien : https://openaccess.thecvf.com/content/CVPR2025/html/Li_Brain-Inspired_Spiking_Neural_Networks_for_Energy-Efficient_Object_Detection_CVPR_2025_paper.html
+3.	Auteurs non précisés (Prophesee/Metavision)
+Object Detection Method with Spiking Neural Network based on DT-LIF Neuron and SSD
+Source : Prophesee Technical Report
+Lien : https://www.prophesee.ai/2025/04/09/object-detection-method-with-spiking-neural-network-based-on-dt-lif-neuron-and-ssd/
+4.	Ahmed et al.
+Efficient Event-Based Object Detection: A Hybrid Neural Network with Spatial and Temporal Attention
+Conférence : CVPR 2025
+Lien : https://arxiv.org/abs/2403.10173
+5.	Wu et al.
+Spiking Transformer-CNN for Event-based Object Detection
+Conférence : OpenReview/NeurIPS 2025
+Lien : https://openreview.net/forum?id=zweyouirw7
+2024
+6.	Wu et al.
+LEOD: Label-Efficient Object Detection for Event Cameras
+Conférence : CVPR 2024
+Lien : https://openaccess.thecvf.com/content/CVPR2024/html/Wu_LEOD_Label-Efficient_Object_Detection_for_Event_Cameras_CVPR_2024_paper.html
+7.	Auteurs non précisés
+Event Meta Formers for Event-based Real-time Traffic Object Detection
+Source : arXiv
+Lien : https://arxiv.org/abs/2504.04124
+8.	Auteurs non précisés
+Integer-Valued Training and Spike-Driven Inference Spiking Neural Network for High-performance and Energy-efficient Object Detection (SpikeYOLO)
+Source : arXiv
+Lien : https://arxiv.org/abs/2407.20708
+2023
+9.	Ge et al.
+EMS-YOLO: A Directly Trained Spiking Neural Network for Object Detection
+Source : arXiv
+Lien : https://arxiv.org/abs/2307.11411
+Cordone, L.
+Performance of spiking neural networks on event data for embedded automotive applications (Chapter 5: No-reset object detection with SNN)
+Source : Thèse PhD, code GitHub
+Lien : https://github.com/loiccordone/no-reset-object-detection-with-snn
+
+
 ## Description du projet :
 
 Les caméras neuromorphiques réagissent aux changements de luminosité sur chaque pixel. Contrairement à une caméra classique, elle n'envoie pas image par image, mais des valeurs de changement de luminosité pixel par pixel, avec la timestamp de ce changement (à la microseconde près)
